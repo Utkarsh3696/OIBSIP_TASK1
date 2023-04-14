@@ -1,0 +1,63 @@
+
+
+textarea[type=text]{
+
+    display: block;
+    margin: auto;
+    max-height: 60px;
+    min-height: 60px;
+    overflow: hidden;
+    padding: 10px;
+    background-color: #D4D4D2;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 90%;
+    min-width: 90%;
+    align-items: center;
+    color: black;
+    border: ridge;
+    
+}
+body{
+    background-color: #D4D4D2;
+    display: block;
+    margin: 60px 0% 0% 0%;   
+}
+.cal-body{
+    width: 350px;
+    background-color: #1c1c1c;
+    height: auto;
+    padding: 15px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    
+    
+}
+
+input[type=button]{
+   background: #D4D4D2;
+   border-radius: 100px;
+   font-size: 20px;
+   width: 20%;
+   padding: 10px;
+   font-weight: 50px;
+   font-family: 'Courier New', Courier, monospace;
+
+}
+#del{
+    background-color: red;
+    color: white;
+}
+#col , #mul , #brackets ,#add,#sub,#mod,#divide{
+    background-color:#FF9500 ;
+    color: white;
+
+}
+@media only screen and (max-width: 600px)
+{
+  .cal-body{
+    width: 300px;
+  }
+}

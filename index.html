@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>CALCULATOR (Level 2 - Task 1 )- Oasis Infobyte</title>
+</head>
+<script>
+  let ans = document.getElementsByName("display")
+  
+</script>
+<body>
+  <div class="cal-body">
+    <form name="cal">
+        <h2 style="color: #D4D4D2;">CALCULATOR</h2>
+        <textarea type="text" name="display" placeholder="..."> </textarea>
+        <br>
+        <br>
+        <input type="button" value=" C " onclick="cal.display.value= ''" id='del'>
+        <input type="button" value=" ( " onclick="cal.display.value+= '('" id='brackets'>
+        <input type="button" value=" ) " onclick="cal.display.value+= ')'" id='brackets'>
+        <input type="button" value=" + " onclick="cal.display.value+= '+'" id='add'>
+        
+        <br>
+        <br>
+        
+        <input type="button" value=" 7 " onclick="cal.display.value+= '7'" id='7'>
+        <input type="button" value=" 8 " onclick="cal.display.value+= '8'" id='8'>
+        <input type="button" value=" 9 " onclick="cal.display.value+= '9'" id='9'>
+        <input type="button" value=" - " onclick="cal.display.value+= '-'" id='sub'>
+        
+        
+        
+        <br>
+        <br>
+        
+        <input type="button" value=" 4 " onclick="cal.display.value+= '4'" id='4'>
+        <input type="button" value=" 5 " onclick="cal.display.value+= '5'" id='5'>
+        <input type="button" value=" 6 " onclick="cal.display.value+= '6'" id='6'>
+        <input type="button" value=" X " onclick="cal.display.value+= '*'" id='mul'>
+        
+        
+        <br>
+        <br>
+        <input type="button" value=" 1 " onclick="cal.display.value+= '1'" id='1'>
+        <input type="button" value=" 2 " onclick="cal.display.value+= '2'" id='2'>
+        <input type="button" value=" 3 " onclick="cal.display.value+= '3'" id='3'>
+        <input type="button" value=" / " onclick="cal.display.value+= '/'" id='divide'>
+        
+        <br>
+        <br>
+        <input type="button" value=" . " onclick="cal.display.value+= '.'" id='dot'>
+        <input type="button" value=" 0 " onclick="cal.display.value+= '0'" id='0'>
+        <input type="button" value=" % " onclick="cal.display.value+= '%'" id='mod'>
+        <input type="button" value="=" onclick="cal.display.value=eval(cal.display.value)" id="col">
+        
+         <br>
+         <br>
+       
+    </form>
+</div>
+</body>
+</html>
